@@ -9,7 +9,24 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Virtual environment files
 python.exe
+*.cfg
+*.bat
+*.ps1
+*.sh
+*.exe
+*.json
+*.png
+*.svg
+*.py
+*.1
+az
+activate
+activate-global-python-argcomplete
+python-argcomplete-check-easy-install-script
+register-python-argcomplete
 
 # Distribution / packaging
 .Python
