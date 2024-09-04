@@ -21,6 +21,7 @@ python.exe
 *.png
 *.svg
 *.py
+*.pyc
 *.1
 az
 activate
