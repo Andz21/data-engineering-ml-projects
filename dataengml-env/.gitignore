@@ -17,7 +17,7 @@ python.exe
 *.ps1
 *.sh
 *.exe
-*.json
+#*.json
 *.png
 *.svg
 *.py
@@ -54,6 +54,9 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+# Ignore .env files
+*.env
 
 # Installer logs
 pip-log.txt
@@ -165,6 +168,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+kernel.json
 
 # Pyre type checker
 .pyre/
