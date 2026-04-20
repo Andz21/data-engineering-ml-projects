@@ -1,0 +1,30 @@
+Project Description: Smart Hybrid Search for Mobility Improvement Measures
+
+Within the Mobility Division, various functional areas define and manage a wide range of improvement measures aimed at 
+enhancing operational efficiency, sustainability, and innovation. These measures are made accessible to users through a 
+centralized web-based application, where stakeholders can browse, review, and analyze initiatives across departments.
+
+This project focuses on enhancing the search capabilities of the application by introducing a smart hybrid search solution. 
+The goal is to significantly improve how users discover relevant measures by combining traditional keyword-based search 
+with advanced semantic search techniques.
+
+The hybrid search functionality enables two primary modes of interaction:
+
+Keyword Search: Users can directly retrieve specific measures using exact identifiers such as measureId, ensuring fast and precise lookup.
+Semantic Search: Leveraging vector embeddings, users can search using natural language queries. The system identifies and returns 
+measures that are semantically similar or contextually related to the search input, even if exact keywords are not present.
+
+To support this capability, the project implements a comprehensive data pipeline that ensures data is continuously processed and 
+indexed for optimal search performance. The pipeline includes the following stages:
+
+Data Extraction: Collecting improvement measures from various source systems across functional areas.
+Data Transformation: Cleaning, structuring, and enriching the data, including the generation of vector embeddings that capture semantic 
+                     meaning.
+Data Loading: Preparing and storing the processed data in a format suitable for search indexing.
+Search Index Update: Uploading both the structured data and corresponding embeddings into Azure Cognitive Search, 
+                     enabling hybrid querying across textual and vector-based representations.
+
+By integrating semantic intelligence into the search experience, this project empowers users to discover relevant measures more 
+intuitively, reduces dependency on exact terminology, and enhances overall usability of the application.
+
+Ultimately, the solution contributes to improved knowledge accessibility and supports better decision-making across the Mobility Division.
